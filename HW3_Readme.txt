@@ -1,4 +1,9 @@
 
+Data set:The data set consists of images from three separate parking lots parking1a, parking1b and parking2. Each of the parking has data set sorted for three different scenarios cloudy, rainy and sunny. Each single day is represented by the folder, for example the folder (e.g. PKLot/parking/cloudy/2012-12-12/) contains multiple snapshot images (like 2012_12_12_10_00_05.jpg) and the corresponding ground truth file (like 2012_12_12_10_00_05.xml).                     
+Ground Truth(.xml)Each image in the parking2 has 100 annotated parking spaces (see image below), along with the location, and occupancy information of the parking spot (Every image is supplemented with a ground truth file. For example (parking2/cloudy/2012-09-12/2012-09-12_06_05_16.jpg) has the ground truth file (parking2/cloudy/2012-09-12/2012-09-12_06_05_16.xml).
+
+
+-------------------------------------------
 1. Use howework3.py to generate the positive and negative samples.
 Usage ./homework3 -img image path -des output path -output output file name or python homework3.py -img image path -des output path -output output file name
 
